@@ -109,41 +109,10 @@ a:hover {
     color: #d72924;
 }
 
-.btn {
-    font-size: 13px;
-    text-transform: uppercase;
-    color: #fff;
-    cursor: pointer;
-    outline: none;
-    border: none;
-    padding: 13px 37px;
-    border-radius: 0;
-    font-weight: 600;
-}
-
-.btn.btn-primary {
-    background: #e91e63;
-}
-
-.btn:hover {
-    background: #222;
-}
-
-button:focus,
-.btn:focus {
-    outline: none;
-    -webkit-box-shadow: none;
-    box-shadow: none !important;
-}
-
 ul {
     padding: 0;
     margin: 0;
     list-style: none;
-}
-
-section,
-.section {
 }
 
 .section-bg {
@@ -6940,5 +6909,26 @@ li {
 }
 
 .currency_slider_area {
-    background: #b3b6bb;
+    background: #fff;
+}
+
+.btn-filter {
+    margin: 5px;
+}
+
+.btn-filter:hover {
+    color: #007bff;
+    background-color: #ffffff;
+    border-color: #007bff;
+}
+
+.btn-filter.active {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.btn-outline-primary:focus {
+    box-shadow: none;
 }

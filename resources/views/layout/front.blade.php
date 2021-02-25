@@ -256,6 +256,7 @@
 		<script src="{{ asset('assets/frontend/js/particles.min.js') }}"></script>
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsBrMPsyNtpwKXPPpG54XwJXnyobfMAIc"></script>
 		<script src="{{ asset('assets/frontend/js/main.js') }}"></script>
+        @yield('script')
 	</body>
 
 </html>

@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/news', 'HomeController@news')->name('news');
+Route::post('/news', 'HomeController@get_news')->name('get_news');
 Route::get('/mining', 'HomeController@mining')->name('mining');
 Route::get('/shop', 'HomeController@shop')->name('shop');
 Route::get('/exchange', 'HomeController@exchange')->name('exchange');
